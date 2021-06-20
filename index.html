@@ -31,7 +31,10 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Tortilla House - بيت التورتيلا</title>
   </head>
   <body>
@@ -40,7 +43,7 @@
         <div
           class="hero-content container text-center"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="4000"
         >
           <h1 class="mb-4">
             بيت التورتيلا
@@ -54,13 +57,13 @@
         </div>
       </header>
       <section class="about text-center light-bg">
-        <div class="container py-5" data-aos="zoom-in">
-          <h2>من نحن</h2>
+        <div class="container py-5" data-aos="zoom-in" data-aos-duration="500">
+          <h2 class="mb-3">من نحن</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta non
-            consectetur voluptatum et nemo, veniam molestias. Molestiae nostrum
-            rem harum, id necessitatibus at error totam nihil exercitationem
-            corrupti temporibus. Perferendis.
+            "أعطِ خبزك للخبّاز ولو أكل نصفهُ "،، أنطلاقاً من هذا المثل القديم
+            نحنُ نحرصُ دائماً على التمّيز وتقديم الأفضل لزبائننا الكرام . نحنُ
+            نصنعُ من الطحين والزيت رغيفاً مميزاً بجودة عالية ، يليق بكم وينال
+            ذوقكم الرفيع ! الطعم مميّز والأسعار مميزة تناسب الجميع .
           </p>
         </div>
       </section>
@@ -68,44 +71,47 @@
         <div class="flex-container">
           <img
             class="img-fluid"
-            src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623746608/torilla/%D8%AE%D8%A8%D8%B211_ju4yhh.jpg"
-            alt=""
+            src="./assets//images/خبز11_ju4yhh-min.jpg"
+            alt="tortilla-bread"
+            data-aos-duration="500"
             data-aos="zoom-in"
           />
           <img
             class="img-fluid"
-            src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623746602/torilla/%D8%AE%D8%A8%D8%B24_nld2ss.jpg"
-            alt=""
+            src="./assets/images/خبز4_nld2ss-min.jpg"
+            alt="tortilla-bread"
+            data-aos-duration="500"
             data-aos="zoom-in"
           />
           <img
             class="img-fluid"
-            src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623783259/torilla/tortilla_c2odsp.jpg"
-            alt=""
+            src="./assets/images/tortilla_c2odsp-min.jpg"
+            alt="tortilla-bread"
+            data-aos-duration="500"
             data-aos="zoom-in"
           />
         </div>
       </section>
       <section class="ingredients">
         <div class="container text-center py-5">
-          <div data-aos="zoom-in">
+          <div data-aos-duration="500" data-aos="zoom-in">
             <h2>المكونات</h2>
             <p>عجينة التورتيلا صحية 100% خالية من السكر</p>
           </div>
           <div class="flex-container">
-            <div class="flex-item" data-aos="fade-up">
+            <div class="flex-item" data-aos-duration="500" data-aos="fade-up">
               <img src="assets/wheat.svg" alt="wheat" />
               <strong>طحين</strong>
             </div>
-            <div class="flex-item" data-aos="fade-up">
+            <div class="flex-item" data-aos-duration="500" data-aos="fade-up">
               <img src="assets/milk.svg" alt="milk" />
               <strong>حليب</strong>
             </div>
-            <div class="flex-item" data-aos="fade-up">
+            <div class="flex-item" data-aos-duration="500" data-aos="fade-up">
               <img src="assets/olive-oil.svg" alt="olive-oil" />
               <strong>زيت زيتون</strong>
             </div>
-            <div class="flex-item" data-aos="fade-up">
+            <div class="flex-item" data-aos-duration="500" data-aos="fade-up">
               <img src="assets/salt.svg" alt="salt" />
               <strong>ملح</strong>
             </div>
@@ -114,84 +120,88 @@
       </section>
       <section class="pricing light-bg">
         <div class="container text-center py-5">
-          <h2 data-aos="zoom-in">الأسعار</h2>
+          <h2 data-aos-duration="500" data-aos="zoom-in">الأسعار</h2>
           <div class="flex-container">
-            <div class="card m-4" style="width: 18rem" data-aos="zoom-in">
+            <div
+              class="card m-4"
+              style="width: 18rem"
+              data-aos-duration="500"
+              data-aos="zoom-in"
+            >
               <img
-                src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623746607/torilla/%D8%AE%D8%A8%D8%B215_eaprnw.jpg"
+                src="./assets/images/خبز15_eaprnw-min.jpg"
                 class="card-img-top"
                 alt="tortilla-sandwish"
                 loading="lazy"
               />
               <div class="card-body">
                 <h5 class="card-title">عجينة للسندويش</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
-              <div class="card-footer py-3">
-                <span class="badge bg-primary p-3">الدزينة 12,000</span>
-              </div>
+              <div class="card-footer py-3">الدزينة 12,000</div>
             </div>
-            <div class="card m-4" style="width: 18rem" data-aos="zoom-in">
+            <div
+              class="card m-4"
+              style="width: 18rem"
+              data-aos-duration="500"
+              data-aos="zoom-in"
+            >
               <img
-                src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623746608/torilla/%D8%AE%D8%A8%D8%B11_mglfel.jpg"
+                src="./assets/images/خبر1_mglfel-min.jpg"
                 class="card-img-top"
                 alt="tortilla-sandwish"
                 loading="lazy"
               />
               <div class="card-body">
                 <h5 class="card-title">عجينة المناقيش</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
-              <div class="card-footer py-3">
-                <span class="badge bg-primary p-3">الدزينة 15,000</span>
-              </div>
+              <div class="card-footer py-3">الدزينة 15,000</div>
             </div>
-            <div class="card m-4" style="width: 18rem" data-aos="zoom-in">
+            <div
+              class="card m-4"
+              style="width: 18rem"
+              data-aos-duration="500"
+              data-aos="zoom-in"
+            >
               <img
-                src="https://res.cloudinary.com/dtp45ukcw/image/upload/v1623746602/torilla/%D8%AE%D8%A8%D8%B26_fixtof.jpg"
+                src="./assets/images/خبز6_fixtof-min.jpg"
                 class="card-img-top"
                 alt="tortilla-pizza"
                 loading="lazy"
               />
               <div class="card-body">
                 <h5 class="card-title">عجينة للبيتزا</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
               </div>
-              <div class="card-footer py-3">
-                <span class="badge bg-primary p-3">الدزينة 25,000</span>
-              </div>
+              <div class="card-footer py-3">الدزينة 25,000</div>
             </div>
           </div>
         </div>
       </section>
       <section id="contact" class="contact">
         <div class="container text-center py-5">
-          <div data-aos="zoom-in">
+          <div data-aos-duration="500" data-aos="zoom-in">
             <h2>تواصل معنا</h2>
             <p>
-              سنكون مسرورين بتلبية طلبكم بأسرع وقت مع التوصيل الى كافة الأراضي
-              اللبنانية
+              سنكون مسرورين بتلبية طلبكم بأسرع وقت مع خدمة التوصيل الى كافة
+              الأراضي اللبنانية
             </p>
           </div>
           <div class="flex-container">
             <a
+              data-aos-duration="500"
               data-aos="flip-up"
               href="https://api.whatsapp.com/send?phone=96170074208"
               ><img src="assets/whatsapp.svg" alt="whatsapp-logo"
             /></a>
-            <a data-aos="flip-up" href="sms:+96170074208"
+            <a
+              data-aos-duration="500"
+              data-aos="flip-up"
+              href="sms:+96170074208"
               ><img src="assets/smartphone.svg" alt="sms-logo"
             /></a>
-            <a data-aos="flip-up" href="tel:+96170074208"
+            <a
+              data-aos-duration="500"
+              data-aos="flip-up"
+              href="tel:+96170074208"
               ><img src="assets/phone.svg" alt="phone-logo"
             /></a>
           </div>
